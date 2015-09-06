@@ -1,12 +1,7 @@
-# pebblekit-js-weather
+# MyWeather
 
-[![Build Status](https://travis-ci.org/pebble-examples/pebblekit-js-weather.svg)](https://travis-ci.org/pebble-examples/pebblekit-js-weather)
+This watchapp uses PebbleKit JS to fetch weather data from the openweathermap.org and display it on the watch. It uses the location provided by the phone to look up the nearest location, and sends temperature data along with that location's name. A weather icon is also displayed.
 
-![screenshot](weather-screenshot~color.png)
-![screenshot](weather-screenshot~bw.png)
+A second view was added that shows more current weather information, including humidity, windspeed, daily high and low, sunrise, and sunset.
 
-This watchapp uses PebbleKit JS to fetch weather data from the
-[openweathermap.org](http://openweathermap.org/) and display it on the watch.
-It uses the location provided by the phone to look up the nearest location, and
-sends temperature data along with that location's name. A weather icon is also
-displayed.
+A third view was added that shows a 12 hour forecast of weather.

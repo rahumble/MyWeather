@@ -1,0 +1,81 @@
+{
+  "uuid": "74460383-8a0f-4bb6-971f-8937c2ed4441",
+  "shortName": "My Weather",
+  "longName": "My Weather",
+  "companyName": "Ryan Humble",
+  "versionCode": 1,
+  "versionLabel": "1.0",
+  "watchapp": {
+    "watchface": false
+  },
+  "appKeys": {
+    "WEATHER_ICON_KEY": 0,
+    "WEATHER_TEMPERATURE_KEY": 1,
+    "WEATHER_CITY_KEY": 2,
+    "WEATHER_HUM_KEY": 3,
+    "WEATHER_WIND_KEY": 4,
+    "WEATHER_SUNRISE_KEY": 5,
+    "WEATHER_SUNSET_KEY": 6,
+    "WEATHER_TIMES_KEY": 7,
+    "WEATHER_TEMPS_KEY": 8,
+    "WEATHER_ICONS_KEY": 9,
+    "WEATHER_HIGH_KEY": 10,
+    "WEATHER_LOW_KEY": 11,
+    "WEATHER_REQUEST_KEY": 12
+  },
+  "resources": {
+    "media": [
+      {
+        "menuIcon": true,
+        "type": "png",
+        "name": "IMAGE_MENU_ICON",
+        "file": "img/menu_icon.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_SUN",
+        "file": "img/sun.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_RAIN",
+        "file": "img/rain.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_CLOUD",
+        "file": "img/cloud.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_SNOW",
+        "file": "img/snow.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_SUN_SMALL",
+        "file": "img/sun_small.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_RAIN_SMALL",
+        "file": "img/rain_small.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_CLOUD_SMALL",
+        "file": "img/cloud_small.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_SNOW_SMALL",
+        "file": "img/snow_small.png"
+      }
+    ]
+  },
+  "targetPlatforms": [
+    "aplite",
+    "basalt"
+  ],
+  "sdkVersion": "3"
+}
